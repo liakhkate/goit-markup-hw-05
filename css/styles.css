@@ -23,14 +23,6 @@ body {
 
 /* Header Styles */
 
-.page-header{
-    display: flex;
-    width: 1440px;
-    height: 72px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
 
 .page-logotype {
     color: #4D5AE5;
@@ -124,9 +116,6 @@ body {
 /* Our Team */
 
 .our-team-section{
-    width: 1440px;
-    height: 732px;
-    flex-shrink: 0;
     background-color: #F4F4FD;
 }
 .our-team-title{
@@ -202,15 +191,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.footer-logotype{
-    color:  #4D5AE5;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 00.03em;
-    text-transform: uppercase;
-}
+
 .text-web-footer{
 color: #f4f4fd
 }
