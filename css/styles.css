@@ -81,7 +81,7 @@ body {
 .title-container {
     background: #2E2F42;
 }
-.h1 {
+.main-title {
     color: #FFFFFF;
     text-align: center;
     font-family: Roboto;
@@ -103,7 +103,7 @@ body {
 }
 .button-order:hover,
 .button-order:focus {
-    color:#404BBF;}
+    background-color: #404BBF;}
 
 /* Our Benefits */
 
@@ -201,6 +201,15 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.footer-logotype{
+    color:  #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 00.03em;
+    text-transform: uppercase;
 }
 .text-web-footer{
 color: #f4f4fd
