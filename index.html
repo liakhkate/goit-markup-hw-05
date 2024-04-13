@@ -3,24 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Спочатку нормалізатор -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Webstudio</title>
+    <!-- normalize -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    <!-- Потім ваші стилі -->
     <link rel="stylesheet" href="./index.css/styles.css" />
-    <title>Webstudio</title>
   </head>
   <body>
     <!-- ======= HEADER ======= -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="page-header">
+      <nav class="page-navigation">
+        <a class="page-logotype" href="./index.html"
+          ><span class="text-web">Web</span>Studio</a
+        >
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="">Studio</a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="">Portfolio</a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address>
