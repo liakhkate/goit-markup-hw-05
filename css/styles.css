@@ -11,6 +11,7 @@ a {
 
 button {
     cursor: pointer;
+    font-family: inherit;
 }
 
 body {
@@ -22,14 +23,23 @@ body {
 
 /* Header Styles */
 
+.page-header{
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
 .page-logotype {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
     text-transform: uppercase;
+    letter-spacing: 0.03em
 }
 
 .text-web {
@@ -50,7 +60,9 @@ body {
 .navigation-list-link:focus {
     color: #404BBF;
 }
-
+.address-page{
+       font-style: normal;
+}
 .our-contacts {
     color:#434455;
         font-family: Roboto;
@@ -58,7 +70,7 @@ body {
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        font-style: normal;
+        
 }
 .our-contacts:hover,
 .our-contacts:focus {
@@ -69,7 +81,7 @@ body {
 .title-container {
     background: #2E2F42;
 }
-h1 {
+.h1 {
     color: #FFFFFF;
     text-align: center;
     font-family: Roboto;
@@ -82,17 +94,17 @@ h1 {
 
 .button-order {
     color:#FFFFFF;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif
 }
 .button-order:hover,
-.button-order.focus {
-    color:#404BBF;
-}
+.button-order:focus {
+    color:#404BBF;}
+
 /* Our Benefits */
 
 .our-benefits-list-item-name {
@@ -156,6 +168,14 @@ h1 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.our-portfolio-title{
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
 .bankink-app{
     color: #2E2F42;
     font-size: 20px;
@@ -172,10 +192,16 @@ h1 {
 }
 /* Footer */
 
+.footer-box{
+    background: #2E2F42;
+}
 .footer-item{
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 00.02em;
+    letter-spacing: 0.02em;
+}
+.text-web-footer{
+color: #f4f4fd
 }
