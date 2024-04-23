@@ -40,6 +40,9 @@ a {
     padding-right: 15px;
 }
 
+   
+
+
 .header {
     border-bottom: 1px solid #e7e9fc;
     border-color: #E7E9FC;
@@ -53,6 +56,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 24px 0;
 }
 
 .header .logo {
