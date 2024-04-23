@@ -56,7 +56,6 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding: 24px 0;
 }
 
 .header .logo {
@@ -76,12 +75,13 @@ a {
 .nav-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    
 }
 
 .nav-list-a {
     color: #2e2f42;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .nav-list-a:hover {
