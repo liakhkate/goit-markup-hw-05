@@ -348,6 +348,7 @@ width: 100%;
 .overlay-page {
   position: absolute;
   top: 0;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
@@ -378,7 +379,7 @@ width: 100%;
   width: 264px;
 }
 .logo-type {
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -401,12 +402,12 @@ width: 100%;
 }
 
 .social-page {
+  margin-bottom: 16px; 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
 }
 
 .social-media-menu {
