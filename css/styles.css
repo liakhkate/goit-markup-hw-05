@@ -77,6 +77,21 @@ a {
     gap: 40px;
     
 }
+.nav-list-item:hover::after{
+    display: block;
+    content: "";
+    width: 48px;
+    height: 4px;
+    top: 44px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(64, 75, 191, 1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
 
 .nav-list-a {
     color: #2e2f42;
@@ -96,9 +111,7 @@ a {
 .page-navigation {
     display: flex;
     align-items: center;
-    /*
-    padding: 24px 0;
-    */
+    
 }
 
 .address {
@@ -276,6 +289,18 @@ a {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     border-radius: 0 0 4px 4px;
 }
+.social-list-link-our-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 32px;
+    fill: rgba(244, 244, 253, 1);
+    background-color:rgba(77, 90, 229, 1);
+    
+ 
+}
                         /* OUR PORTFOLIO */
 .screen-four {
     padding-top: 120px;
@@ -357,4 +382,19 @@ a {
 
 .footer .logo-part {
     color: #f4f4fd;
+}
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+.social-list-item {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    fill: rgba(244, 244, 253, 1);
+    background-color:rgba(77, 90, 229, 1);
+
+
 }
