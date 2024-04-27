@@ -116,7 +116,6 @@ width: 100%;
   background-position: center;
   background-size: cover;
   font-family: "Roboto", sans-serif;
-  font-weight: 700px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -125,7 +124,7 @@ width: 100%;
   padding: 188px 0;
   align-items: center;
   margin: 0 auto;
-  height: 600;
+  height: 600px;
   max-width: 1440px;
 }
 
@@ -214,7 +213,7 @@ width: 100%;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  gap: 24;
+  gap: 24px;
 }
 .first-text {
   line-height: 1.5;
