@@ -1,79 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 4</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <!--========== HEADER  ==============-->
-    <header class="hat-head">
-      <div class="container">
-        <nav class="page-navigation">
-          <a class="logo" href="./index.html"
-            >Web<span class="accent">Studio</span></a>
-          <ul class="menu">
-            <li class="menu-item">
-              <a href="./index.html" class="menu-link studio">Studio</a>
-            </li>
-            <li class="menu-item">
-              <a href="" class="menu-link">Portfolio</a>
-            </li>
-            <li class="menu-item">
-              <a href="" class="menu-link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <ul class="cont-list">
-            <li class="cont-item">
-              <a href="mailto:info@devstudio.com" class="cont-link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="cont-item">
-              <a href="tel:+110001111111" class="cont-link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="navigation">
+                <a class="logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
+                <ul class="nav-list">
+                    <li><a class="nav-link current" href="">Studio</a></li>
+                    <li><a class="nav-link" href="">Portfolio</a></li>
+                    <li><a class="nav-link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="address">
+                <ul class="address-list">
+                    <li><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="address-link" href="tel:110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+        </div>
     </header>
     
     <main>
       <!--=========== HERO ===========-->
-      <section class="section-first">
+      <section class="section-one">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="top-button" type="button">Order Service</button>
         </div>
       </section>
       <!--=========== OUR BENEFITS =========-->
-      <section class="section-second">
+      <section class="section-two">
         <div class="container">
           <h2 class="visually-hidden">Benefits</h2>
 
@@ -133,7 +104,7 @@
         </div>
       </section>
       <!--=============== OUR TEAM ===========-->
-      <section class="section-third">
+      <section class="section-three">
         <div class="container">
           <h2 class="title-two">Our Team</h2>
 
@@ -347,7 +318,7 @@
         </div>
       </section>
       <!--============= OUR PORTFOLIO ============-->
-      <section class="section-fourth">
+      <section class="section-four">
         <div class="container">
           <h2 class="title-two">Our Portfolio</h2>
 
@@ -476,9 +447,9 @@
       </section>
     </main>
     <!-- ============ FOOTER ============== -->
-    <footer class="foo-end">
-      <div class="container foo-end-container">
-        <div class="footer-container">
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="logo-container">
           
           <a class="logo-type" href="./index.html"
             >Web<span class="accentt">Studio</span></a
