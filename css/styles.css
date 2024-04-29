@@ -337,6 +337,7 @@ width: 100%;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transform: translateY(100%); 
 }
 
 .overlay-box {
@@ -377,9 +378,9 @@ width: 100%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+  margin-bottom: 16px;
 }
 .logo-type {
-  /* margin-bottom: 16px; */
   display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -426,7 +427,7 @@ width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-link:hover,
 .social-media-link:focus {
