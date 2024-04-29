@@ -7,6 +7,14 @@ body {
 a {
     text-decoration: none;
 }
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    margin: 0;}
 
 ul,
 ol {
@@ -337,7 +345,7 @@ width: 100%;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transform: translateY(100%); 
+  /* transform: translateY(100%);  */
 }
 
 .overlay-box {
