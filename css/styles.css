@@ -329,7 +329,7 @@ width: 100%;
   transform: translateY(0%);
 }
 
-.images-cover {
+.overlay {
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -375,7 +375,7 @@ width: 100%;
 }
 
 .source:hover {
-  transform: translateY(0%);
+   /* transform: translateY(0%);  */
 }
 
 
