@@ -256,6 +256,7 @@ width: 100%;
 .section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
+  margin-bottom: 8px;
 }
 .title-two {
   font-weight: 700;
@@ -395,6 +396,7 @@ width: 100%;
   background-color: #2e2f42;
   padding: 100px 0;
   text-align: left;
+  text-transform: uppercase;
 }
 .accentt {
   color: #f4f4fd;
