@@ -422,6 +422,12 @@ width: 100%;
   width: 264px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
 }
 
 .footer-social {
